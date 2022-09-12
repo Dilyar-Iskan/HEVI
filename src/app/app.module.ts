@@ -7,6 +7,9 @@ import { OffersComponent } from './components/offers/offers.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { TeamComponent } from './components/team/team.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     OffersComponent,
     NavbarComponent,
     AboutComponent,
-    CarouselComponent
+    CarouselComponent,
+    ContactComponent,
+    FooterComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,
